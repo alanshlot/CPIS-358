@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - GameZone Store</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: darkblue;
+        }
+
+        .about-section {
+            max-width: 750px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .team-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 180px;
+            text-align: center;
+            box-shadow: 3px 3px 10px gray;
+            border: 2px solid #ddd;
+        }
+
+        .team-member h3 {
+            color: darkblue;
+            margin: 10px 0 4px;
+        }
+
+        .team-member p {
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🎮 GameZone 🎮</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+        <a href="signup.html">Sign up</a>
+        <a href="about.html">About us</a>
+    </nav>
+
+    <!-- Image on about page (required: one image per page) -->
+    <div style="text-align:center; margin-top: 20px;">
+        <img src="images/logo.png" width="150" alt="GameZone Logo">
+    </div>
+
+    <div class="about-section">
+
+        <!-- About section -->
+        <section>
+            <h2>About GameZone Store</h2>
+            <p>
+                GameZone is an online game store dedicated to giving gamers the best selection of titles at affordable prices.
+                We believe every gamer deserves access to great games without breaking the bank.
+            </p>
+            <p>
+                Founded in 2026, our mission is to make gaming accessible to everyone. We offer digital downloads,
+                physical copies, and exclusive deals on the latest releases.
+            </p>
+        </section>
+
+        <hr>
+
+        <!-- Why choose us — uses a list -->
+        <section>
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>✅ Huge library of games </li>
+                <li>✅ Best prices and weekly deals</li>
+                <li>✅ Fast and secure checkout</li>
+                <li>✅ Support for all major platforms</li>
+                <li>✅ Friendly customer support team</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- Our Team section -->
+        <section id="team">
+            <h2>Our Team</h2>
+            <p>We are a group of passionate gamers and developers who built this store for the community.</p>
+
+            <div class="team-grid">
+                <div class="team-member card">
+                    <div style="font-size: 2.5em;">👨‍💻</div>
+                    <h3>Abdullah Alhamed</h3>
+                    <p>Developer</p>
+                    <br>
+                    <a href="www.linkedin.com/in/abdullah-alhamed-b7232b373" style="text-decoration: double;  border-radius: 20px; ">  About me!   </a>
+                    
+                </div>
+                <div class="team-member card">
+                    <div style="font-size: 2.5em;">👨‍💻</div>
+                    <h3>Saleh Baarabi</h3>
+                    <p>Developer</p>
+
+                </div>
+                
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Contact info table -->
+        <section>
+            <h2>Contact Us</h2>
+            <table border="1" style="margin: auto; width: 100%;">
+                <tr>
+                    <th>Method</th>
+                    <th>Details</th>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>support@gamezone.com</td>
+                </tr>
+                <tr>
+                    <td>Phone</td>
+                    <td>+966 50 000 0000</td>
+                </tr>
+                <tr>
+                    <td>Location</td>
+                    <td>Jeddah, Saudi Arabia</td>
+                </tr>
+            </table>
+        </section>
+
+        <br>
+
+    </div>
+
+    <!-- Footer -->
+    <footer style="background:#111; color:#aaa; text-align:center; padding: 16px; margin-top: 30px;">
+        <p>© 2026 GameZone Store. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

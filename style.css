@@ -1,0 +1,216 @@
+
+
+/* ===== EXTERNAL CSS - style.css ===== */
+ 
+/* ===== BASE STYLES ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+ 
+/* ===== HEADER ===== */
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 16px;
+}
+ 
+header h1 {
+    margin: 0;
+    color: white;
+}
+ 
+/* ===== NAVIGATION MENU ===== */
+nav {
+    background-color: black;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+ 
+nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+ 
+nav a:hover {
+    background-color: darkblue;
+}
+ 
+/* ===== GENERAL CLASSES ===== */
+ 
+/* .container — centers and limits page content width */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ 
+/* .card — white box with shadow, used for forms and team members */
+.card {
+    background: white;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: left;
+}
+ 
+/* .btn — styled button/link used across all pages */
+.btn {
+    display: inline-block;
+    background-color: darkblue;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+ 
+.btn:hover {
+    background-color: #0000aa;
+}
+ 
+/* .input-field — styled form inputs */
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+ 
+.input-field:focus {
+    border-color: darkblue;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 139, 0.3);
+}
+ 
+/* .form-group — spacing wrapper for each form field */
+.form-group {
+    margin-bottom: 12px;
+    text-align: left;
+}
+ 
+.form-group label {
+    font-weight: bold;
+    color: darkblue;
+    display: block;
+    margin-bottom: 4px;
+}
+ 
+/* ===== TABLE ===== */
+table {
+    margin: auto;
+    background: white;
+    border-collapse: collapse;
+    width: 90%;
+    max-width: 700px;
+}
+ 
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 14px;
+}
+ 
+td {
+    padding: 9px 14px;
+    color: #333;
+}
+ 
+tr:nth-child(even) {
+    background-color: #f0f4ff;
+}
+ 
+/* ===== FORMS ===== */
+form {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    border: 2px solid #ccccee;
+}
+ 
+input[type="submit"] {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    transition: background-color 0.2s;
+}
+ 
+input[type="submit"]:hover {
+    background-color: #0000aa;
+}
+ 
+/* ===== LAYERING WITH Z-INDEX (required by rubric) ===== */
+.overlay-label {
+    position: absolute;
+    z-index: 10;
+    background-color: rgba(0, 0, 139, 0.82);
+    color: white;
+    padding: 5px 14px;
+    border-radius: 4px;
+    font-size: 0.82em;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+    border: 1px solid rgba(255,255,255,0.3);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+}
+ 
+/* ===== SHADOWS & BORDERS (required by rubric) ===== */
+h2 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 139, 0.25);
+    color: #1a1a7e;
+}
+ 
+section, article {
+    border-top: 3px solid darkblue;
+    margin-top: 24px;
+    padding-top: 16px;
+}
+ 
+/* ===== FOOTER ===== */
+footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 16px;
+    margin-top: 30px;
+}
+ 
+/* ===== UTILITY ===== */
+a {
+    color: darkblue;
+}
+ 
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 24px auto;
+    max-width: 600px;
+}
