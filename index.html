@@ -3,12 +3,10 @@
  
 <head>
     <meta charset="UTF-8">
-    <title>GameZone </title>
+    <title>GameZone Store</title>
  
-    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
  
-    <!-- Internal CSS (required by rubric) -->
     <style>
         h1 {
             color: darkblue;
@@ -36,12 +34,12 @@
  
 <body>
  
-    <!-- Header -->
     <header>
-        <h1>GameZone </h1>
+        <h1>🎮 GameZone 🎮</h1>
+
+        <script src="script.js" defer></script>
     </header>
  
-    <!-- Navigation Menu -->
     <nav>
         <a href="index.html">Home</a>
         <a href="login.html">Log in</a>
@@ -53,18 +51,15 @@
  
     <br>
  
-    <!-- Image with Image Map (clickable area → About page) -->
     <div style="text-align:center;">
         <img src="images/logo.png" width="200" alt="Game Logo" usemap="#gameMap">
 
         <br>
-         <!-- Z-index layering: label overlaid on top of image area -->
         <div class="container" style="position: relative; display: inline-block;">
             <div class="overlay-label box">🖱 Click image to learn about us</div>
         
             <br>
 
-        <!-- Image Map: clicking top half of image goes to About Us -->
         <map name="gameMap">
             <area shape="rect" coords="0,0,200,100" href="about.html" alt="About Us">
         </map>
@@ -75,7 +70,6 @@
        <br>
        <br>
         
-<!-- Internal Link: jump to games section on same page -->
     <div style="text-align:center; margin-top: 16px;">
         <a href="#games-section" class="btn">⬇ View Available Games</a>
 
@@ -86,27 +80,26 @@
  
     <br>
  
-    <!-- Hero Section with internal anchor target -->
-    <section class="hero-section">
-        <h2>Welcome to GameZone Store</h2>
+    <section class="hero-section" id="hero-section">
+        <h2 id="hero-title">Welcome to GameZone Store</h2>
         <p>This website helps you explore and buy the best games easily.</p>
         <p>Browse our huge library of titles across all platforms and genres.</p>
         <a href="signup.html" class="btn">Get Started</a>
+        <br><br>
+        <button class="btn" style="background-color: gold; color: black;" onclick="changeTheme()">✨ Activate VIP Mode</button>
     </section>
  
-    <!-- Features Article -->
-    <article style="padding: 24px; max-width: 700px; margin: auto;">
+    <article style="padding: 24px; max-width: 700px; margin: auto; text-shadow: #1a1a2e; font-size: large;">
         <h2>Top Features</h2>
         <ul>
-            <li>Best prices guaranteed</li>
-            <li>Latest game releases</li>
-            <li>Easy and fast navigation</li>
-            <li>Secure payment options</li>
-            <li>24/7 customer support</li>
+            <li>✅ Best prices guaranteed ✅</li>
+            <li>✅ Latest game releases ✅</li>
+            <li>✅ Easy and fast navigation ✅</li>
+            <li>✅ Secure payment options ✅</li>
+            <li>✅ 24/7 customer support ✅</li>
         </ul>
     </article>
  
-    <!-- Games Table — has anchor id for internal link -->
     <section id="games-section" style="padding: 24px; max-width: 700px; margin: auto;">
         <h2>Available Games</h2>
         <table border="1">
@@ -117,7 +110,7 @@
                 <th>Price</th>
             </tr>
             <tr>
-                <td>FIFA 24</td>
+                <td>FIFA 26</td>
                 <td>Sports</td>
                 <td>PS5 / Xbox</td>
                 <td>$50</td>
@@ -135,28 +128,25 @@
                 <td>$40</td>
             </tr>
             <tr>
-                <td>Minecraft</td>
-                <td>Sandbox</td>
+                <td>Sifu</td>
+                <td>Fighting</td>
                 <td>All Platforms</td>
-                <td>$25</td>
+                <td>$30</td>
             </tr>
         </table>
     </section>
  
-    <!-- Inline CSS example -->
-    <p style="color:red; text-align:center; font-size: 1.2em;">🔥 Special Offer Today! Use code GAMEZONE10 for 10% off!</p>
+    <p style="color:red; text-align:center; font-size: 1.2em; font-style: oblique;">🔥 Special Offer Today! Use code GAMEZONE10 for 10% off!</p>
  
-    <!-- Back to top internal link -->
     <div style="text-align:center; padding: 20px;">
-        <a href="#top" class="btn">⬆ Back to Top</a>
+        <a href="#top" class="btn">⬆ Back to Top ⬆</a>
     </div>
  
-    <!-- Footer -->
-    <footer style="background:#111; color:#aaa; text-align:center; padding: 16px;">
+    <footer style="background:#111; color:#ffffff; text-align:center; padding: 16px;">
         <p>© 2026 GameZone Store. All rights reserved.</p>
     </footer>
  
    
  
 </body>
-</html>
+</html>>
